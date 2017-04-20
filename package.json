@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-oliver-base",
+  "version": "1.0.0",
+  "description": "Oliver JavaScript Style - ESLint Shareable Config",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "files": [
+    "index.js",
+    "eslintrc.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverit/eslint-config-oliver-base.git"
+  },
+  "keywords": [
+    "eslint",
+    "oliver"
+  ],
+  "author": "René van Mil <rene.van.mil@oliver-it.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oliverit/eslint-config-oliver-base/issues"
+  },
+  "homepage": "https://github.com/oliverit/eslint-config-oliver-base#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.19.0",
+    "eslint-config-airbnb-base": ">=11",
+    "eslint-plugin-import": ">=2.2.0"
+  }
+}
