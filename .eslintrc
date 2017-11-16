@@ -19,9 +19,11 @@
       }
     }],
     "max-len": "off",
+    "no-new": "off",
     "no-param-reassign": ["error", {"props":false}],
     "no-tabs": "off",
     "no-underscore-dangle": "off",
+    "prefer-destructuring": "off",
     "semi": ["error", "never"]
   }
 }
