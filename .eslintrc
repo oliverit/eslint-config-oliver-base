@@ -23,6 +23,7 @@
     "no-param-reassign": ["error", {"props":false}],
     "no-tabs": "off",
     "no-underscore-dangle": "off",
+    "object-curly-newline": "off",
     "prefer-destructuring": "off",
     "semi": ["error", "never"]
   }
