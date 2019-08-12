@@ -1,3 +1,8 @@
-module.exports = Object.assign({}, require('./eslintrc.json'), {
-	extends: [require.resolve('eslint-config-airbnb-base')]
-})
+const eslintrc = require('./eslintrc.json')
+
+module.exports = {
+	...eslintrc,
+	extends: [
+		'eslint-config-airbnb-base'
+	].map(require.resolve)
+}

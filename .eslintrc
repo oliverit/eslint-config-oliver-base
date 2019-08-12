@@ -3,6 +3,7 @@
     "airbnb-base"
   ],
   "rules": {
+    "arrow-parens": ["error", "as-needed", {"requireForBlockBody": true}],
     "class-methods-use-this": "off",
     "comma-dangle": ["error", "never"],
     "indent": ["error", "tab", {
@@ -20,7 +21,7 @@
     }],
     "max-len": "off",
     "no-new": "off",
-    "no-param-reassign": ["error", {"props":false}],
+    "no-param-reassign": ["error", {"props": false}],
     "no-tabs": "off",
     "no-underscore-dangle": "off",
     "object-curly-newline": "off",
