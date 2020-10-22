@@ -6,6 +6,7 @@ module.exports = {
 		'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
 		'class-methods-use-this': 'off',
 		'comma-dangle': ['error', 'never'],
+		'import/prefer-default-export': 'off',
 		indent: ['error', 'tab', {
 			SwitchCase: 1,
 			VariableDeclarator: 1,
