@@ -2,6 +2,9 @@ module.exports = {
 	extends: [
 		'airbnb-base'
 	],
+	parserOptions: {
+		ecmaVersion: 2020
+	},
 	rules: {
 		'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
 		'class-methods-use-this': 'off',
